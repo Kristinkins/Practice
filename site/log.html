@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="./resources/logo.png" alt="Логотип" class="header__logo">
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a href="main.html">ГЛАВНАЯ</a></li>
+                    <li><a href="about-project.html">О ПРОЕКТЕ</a></li>
+                    <li><a href="members.html">МОЯ РОЛЬ</a></li>
+                    <li><a class="active" href="!#">ИССЛЕДОВАНИЕ</a></li>
+                    <li><a href="links.html">РЕСУРСЫ</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <div class="container">
+        <div class="news-container">
+            <!-- Пост 1 -->
+            <div class="news-post">
+                
+                <div class="news-content">
+                    <h2 class="title__formaintext">Анализ рынка и конкуренции</h2>
+                    <h3 class="annotation__subtitle">TAM SAM SOM анализ рынка</h3>
+                    <p class="annotation__desc">
+                        Провели TAM SAM SOM анализ рынка. Для этого был взят рынок умных устройств, так как именно
+                        на него мы планируем выйти вместе со своим продуктом. TAM (Total Addressable Market) показатель
+                        составил 120 млрд. руб - этот показатель отразил весь возможный спрос, существующий на рынке 
+                        (Владельцы умных устройств и тех, кто заинтересован в улучшении своего домашнего и офисного 
+                        опыта с помощью технологий). SAM (Serviceable Available Market) показатель составил 15 млрд. руб.,
+                        что отображает тот сегмент, который компания может реально обслужить с учётом своей бизнес-модели и
+                        географии (Пользователи цифровых фоторамок, умных колонок). SOM (Serviceable Obtainable Market)
+                        показатель составил 5 млрд. руб. - это реально достижимая доля рынка в обозримом будущем 
+                        с учётом конкуренции и возможностей компании.
+                    </p>
+                    
+                    <h3 class="annotation__subtitle">Конкурентный анализ</h3>
+                    <p class="annotation__desc">
+                        Раннее мы исследовали всевозможные существующие решения, подходящие под нашу идею, чтобы выделить основной функционал,
+                        который будет осуществлять наша нейрофоторамка. Теперь для конкурентного анализа мы взяли 3 основных наших
+                        конкурента - это Яндекс Дуо Макс, ВК капсула и SberBoom. Выделив 6 основных критериев была составлена сравнительная
+                        таблица, изучив который наглядно видно, что наша фоторамка превосходит конкурентов.
+                    </p>
+                    <div class="news-image">
+            <img src="./resources/analys.jpg" alt="Сравнительная таблица конкурентов" class="clickable-image">
+        </div>
+<h3 class="annotation__subtitle">UX-исследование нейрофоторамки</h3>
+<div class="research-findings">
+    <div class="finding-card">
+        <div class="finding-header">
+            <span class="finding-percent">70%</span>
+            <h4 class="finding-title">Альтернативные варианты комплектов</h4>
+        </div>
+        <p class="finding-desc">
+            Пользователи ожидают, что нейрофоторамка будет предлагать 3-5 вариантов комплектов одежды 
+            с возможностью быстрого переключения между ними. Особенно востребована функция 
+            "Альтернативный образ" при интеграции с умным домом - когда система автоматически 
+            предлагает замену предметов гардероба, если датчики обнаруживают, что рекомендуемая 
+            одежда находится в стирке или недоступна.
+        </p>
+    </div>
+
+    <div class="finding-card">
+        <div class="finding-header">
+            <span class="finding-percent">85%</span>
+            <h4 class="finding-title">Ручная коррекция подборов</h4>
+        </div>
+        <p class="finding-desc">
+            Несмотря на автоматизацию, пользователи хотят сохранять контроль:
+            <ul class="finding-list">
+                <li>Возможность переопределять автоматически подобранные вещи</li>
+                <li>Корректировка рекомендаций на основе личных предпочтений ("Мне холоднее/теплее, чем системе")</li>
+                <li>Интеграция с голосовым помощником для быстрой коррекции ("Алиса, замени эту рубашку")</li>
+                <li>Синхронизация коррекций между фоторамкой и мобильным приложением</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="finding-card">
+    <div class="finding-header">
+        <span class="finding-percent">62%</span>
+        <h4 class="finding-title">Фотографирование гардероба</h4>
+    </div>
+    <div class="finding-desc">
+        <p>Основные проблемы и предложенные решения:</p>
+        <div class="solution-grid">
+            <div class="solution-item">
+                <p><strong>Проблема:</strong> Трудно фотографировать много предметов</p>
+                <p><strong>Решение:</strong> Пакетная загрузка + AI-ассистент для кадрирования</p>
+            </div>
+            <div class="solution-item">
+                <p><strong>Проблема:</strong> Не распознаются ткани и фактуры</p>
+                <p><strong>Решение:</strong> Дополнительные поля для ручного описания</p>
+            </div>
+            <div class="solution-item">
+                <p><strong>Проблема:</strong> Сезонные вещи хранятся отдельно</p>
+                <p><strong>Решение:</strong> Интеграция с календарем смены сезонов</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="finding-card">
+        <div class="finding-header">
+            <span class="finding-percent">78%</span>
+            <h4 class="finding-title">Интеграция с умным домом</h4>
+        </div>
+        <p class="finding-desc">
+            Пользователи видят потенциал в следующих сценариях:
+            <ul class="integration-list">
+                <li>Автоматическая регулировка освещения в комнате для лучшего отображения подобранных образов</li>
+                <li>Синхронизация с умными вешалками и шкафами (подсветка рекомендуемых вещей)</li>
+                <li>Учет данных с домашних метеостанций для более точных рекомендаций</li>
+                <li>Голосовое управление через умные колонки ("Покажи образ для встречи в 15:00")</li>
+            </ul>
+        </p>
+    </div>
+</div>
+
+            <!-- Пост 2 -->
+            <div class="news-post">
+                <div class="news-image">
+                    <img src="./resources/lean_canvas.jpg" alt="Разработка прототипа">
+                </div>
+                <div class="news-content">
+                    <h2 class="title__formaintext">Создание бизнес-модели</h2>
+                    <h3 class="annotation__subtitle">Lean Canvas</h3>
+                    <p class="annotation__desc">
+                        Был создан одностраничный шаблон бизнес-модели, который помог быстро проработать наши
+                        ключевые гипотезы, риски и стратегию, фокусируясь на проблемах клиентов и ценностном предложении.
+                        Изучение бизнес-модели помогло доработать функционал, а так же приступить к созданию прототипа интерфеса.
+                    </p>
+                    
+            
+                    <p class="member-position">5 марта 2025</p>
+                </div>
+            </div>
+            <div class="gallery-container">
+    <img src="./resources/фоторамка_скрин.png" alt="Прототип нейрофоторамки 1" class="gallery-image">
+    <img src="./resources/скрин2.jpg" alt="Прототип нейрофоторамки 2" class="gallery-image">
+    <img src="./resources/скрин3.jpg" alt="Прототип нейрофоторамки 3" class="gallery-image">
+</div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer__container">
+                <!-- Первая секция - логотип и контакты -->
+                <div class="footer-section">
+                    <img src="./resources/mospolytech-logo-white.svg" width="300px" alt="Основной логотип" class="logo">
+                    <div class="footer-links">
+                        <a href="mailto:mospolytech@mospolytech.ru">mospolytech@mospolytech.ru</a>
+                        <a href="https://mospolytech.ru/" target="_blank">mospolytech.ru/</a>
+                        <a href="tel:+7 (495) 276-37-36" target="_blank">+7 (495) 276-37-36</a>
+                    </div>
+                </div>
+                
+                <!-- Вторая секция - меню -->
+                <div class="footer-section">
+                    <nav class="footer-menu">
+                        <a href="main.html">ГЛАВНАЯ</a>
+                        <a href="about-project.html">О ПРОЕКТЕ</a>
+                        <a href="members.html">МОЯ РОЛЬ</a>
+                        <a class="active" href="#!">ИССЛЕДОВАНИЕ</a>
+                        <a href="links.html">РЕСУРСЫ</a>
+                    </nav>
+                </div>
+                
+                <!-- Третья секция - второй логотип и контакты -->
+                <div class="footer-section">
+                    <p class="logo-texel">TEXEL</p>
+                    <div class="footer-links">
+                        <a href="mailto:i@texel.graphics">i@texel.graphics</a>
+                        <a href="https://texel.graphics/ru/" target="_blank">texel.graphics/ru/</a>
+                        <a href="tel:+7 (495) 018-39-35" target="_blank">+7 (495) 018-39-35</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</body>
+</html>
