@@ -8,7 +8,7 @@
 
 ## Задание
 
-Задание размещено в папке **tasks** в файле [README.md](task/README.md).
+Задание размещено в папке **tasks** в файле [README.md](https://github.com/Kristinkins/Practice/blob/master/tasks/README.md).
 
 ## Ответственный по проектной (учебной) практике
 
